@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+header {
+    border-bottom: solid #000 1px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    height: 40px;
+}
+.login-user-icon {
+    width: 25px;
+    height: 25px;
+    border: solid #000 1px;
+    border-radius: 10%;
+}
+.container {
+    width: 70%;
+    margin: 40px auto 0 auto;
+}
+.user-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: solid #000 1px;
+    border-radius: 10%;
+}
+.username {
+    font-weight: bold;
+}
+.message-wrapper {
+    display: flex;
+    padding: 5px 0 5px 0;
+}
+.message-right {
+    padding-left: 5px;
+}
+.message-text {
+    overflow-wrap: break-word;
+}
+.deleted {
+    color: gray;
+    font-size: 80%;
+}
+.lines-between-dates {
+    width: 100%;
+    border-bottom: #000 1px solid;
+}
+.info {
+    display: flex;
+}
+.time-stamp {
+    color: gray;
+    padding-left: 15px;
+    font-size: 90%;
+}
+.form-flex {
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+textarea {
+    width: 90%;
+    resize: none;
+}
+#submit-button {
+    display: none;
+}
+.submit-button {
+    color: #d3d3d3;
+}
+.submit-button span::before {
+    display: inline-block;
+    line-height: 30px;
+    border: 1px solid #000;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+.inversion {
+    color: #fff;
+    background-color: green;
+}
